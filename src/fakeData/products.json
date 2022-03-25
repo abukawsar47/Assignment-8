@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "MRF Genius VK Grand Edition",
+        "price": 349,
+        "img": "https://26b5c92bej542nbc9b3nbw5o-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/mrf-genius-vk-1000x1063.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Short Handle NB DC 570 English Willow Cricket Bat",
+        "price": 260,
+        "img": "https://5.imimg.com/data5/QE/MX/BL/SELLER-53345224/nb-dc-570-english-willow-cricket-bat-500x500.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sg Profile Extreme Cricket Bat",
+        "price": 200,
+        "img": "https://www.kindpng.com/picc/m/333-3336824_sg-profile-xtreme-cricket-bat-sg-cricket-bat.png"
+    },
+    {
+        "id": 4,
+        "name": "New SS TON Special Edition 2021 English Willow Cricket Bat",
+        "price": 177,
+        "img": "https://elitesportstore.com/wp-content/uploads/2020/12/SS-ton-s.e.png"
+    },
+    {
+        "id": 5,
+        "name": "DSC Sunil Narine SN74 Players Edition Cricket Bat",
+        "price": 230,
+        "img": "https://cdn.shopify.com/s/files/1/0506/5044/8050/products/ac71f47d-2c1e-4b9c-b7c8-aa2c00c0f37a_600x600_aa86aabd-551c-46d7-909d-15f8a6772bc6_800x.jpg?v=1605624484"
+    },
+    {
+        "id": 6,
+        "name": "RAPID PRO 2.0 SENIOR CRICKET BAT",
+        "price": 167,
+        "img": "https://cdn-5c84bc36-b681cbc1.mysagestore.com/b522fd52e101edc926c3308c230445d5/contents/2A11263SNR/2A11263SNR.jpg"
+    },
+    {
+        "id": 7,
+        "name": "GM Noir 707 English Willow Cricket Bat - SH",
+        "price": 150,
+        "img": "https://cdn.shopify.com/s/files/1/1451/6524/products/GM-NIOR-707-main-2020.jpg?v=1596788193"
+    },
+    {
+        "id": 8,
+        "name": "Gray Nicolls F18 GN8.5 English Willow Cricket Bat",
+        "price": 320,
+        "img": "https://www.khelmart.com/Cricket/zoomer_Image/GN_EN_000075_large.webp"
+    },
+    {
+        "id": 9,
+        "name": "Ceat Hitman English Willow Cricket Bat - SH",
+        "price": 230,
+        "img": "https://cdn.shopify.com/s/files/1/1451/6524/products/Ceat-Hitman-EW-Bat-2018-2020-main.jpg?v=1597681946"
+    }
+]
