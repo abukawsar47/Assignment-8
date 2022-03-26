@@ -1,6 +1,5 @@
 
 # Cricket Sports 
-- []
 
 Hello friends this is a cricket instoment store. You can buy any kind Expensive Bats.
 
