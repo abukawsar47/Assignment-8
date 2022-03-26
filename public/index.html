@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +22,36 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>CRICKET SPORTS</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <div class="q-ans" style="margin: 0 5%;">
+    <h1>1. How does React work?</h1>
+    <p><strong>Ans:</strong> React হল ইউজার ইন্টারফেস তৈরির জন্য একটি দক্ষ এবং নমনীয় জাভাস্ক্রিপ্ট লাইব্রেরি। এটি একটি
+      ওপেন সোর্স
+      কম্পোনেন্ট-ভিত্তিক ফ্রন্ট এন্ড লাইব্রেরি যা এপ্লিকেশন ভিউ লেয়ার এর জন্য কার্যকরী। এটি নথির যৌক্তিক কাঠামো এবং
+      উপায় নির্ধারণ করে। একটি নথি অ্যাক্সেস করা হয় এবং ম্যানিপুলেট করা হয়।) সুতরাং, এটিকে দ্রুততর করতে, প্রতিক্রিয়া
+      একটি ভার্চুয়াল DOM প্রয়োগ করে যা মূলত জাভাস্ক্রিপ্টে একটি DOM ট্রি উপস্থাপনা। সুতরাং যখন এটি DOM-এ পড়তে বা
+      লিখতে হবে, তখন এটি এর ভার্চুয়াল উপস্থাপনা ব্যবহার করবে। তারপর ভার্চুয়াল DOM ব্রাউজারের DOM আপডেট করার সবচেয়ে
+      কার্যকর উপায় খুঁজে বের করার চেষ্টা করবে।
+      ব্রাউজার DOM উপাদানগুলির বিপরীতে, প্রতিক্রিয়া উপাদানগুলি সরল বস্তু এবং তৈরি করা সস্তা। প্রতিক্রিয়া DOM
+      প্রতিক্রিয়া উপাদানগুলির সাথে মেলে DOM আপডেট করার যত্ন নেয়। এর কারণ হল জাভাস্ক্রিপ্ট খুব দ্রুত এবং এর
+      ম্যানিপুলেশন দ্রুত করার জন্য এটিতে একটি DOM ট্রি রাখা মূল্যবান।
+      যদিও প্রতিক্রিয়া ব্রাউজারে ব্যবহার করার কথা ভাবা হয়েছিল, এর ডিজাইনের কারণে এটি Node.js এর সাথে সার্ভারেও ব্যবহার
+      করা যায় ।</p>
+    <h1>2. How does useState work?</h1>
+    <p><strong>Ans:</strong> Use State হলো এক ধরণের হোক , যার মধ্যে প্রয়োজনীয় উপাদানসমূহ Variable আকারে সংরক্ষণ করা যায়।
+      এটি একটি বিশেষ
+      ধরণের ফাঙ্কশন যা প্রাথমিকভাবে একটি আর্গুমেন্ট হিসেবে অবস্থান নেয় এবং দুই এন্ট্রির একটি এরে প্রদান করে। যার প্রথম
+      উপাধানটি প্রাথমিক অবস্থা এবং দ্বিতীয়টি হলো একটি ফাঙ্কশন যা স্টেট আপডেট করার জন্য ব্যবহার হয়।ReactJS setState()
+      সমস্ত প্রতিক্রিয়া উপাদানগুলির সাথে একটি রাষ্ট্র যুক্ত থাকতে পারে। ব্যবহারকারীর দ্বারা সম্পাদিত একটি কর্মের
+      প্রতিক্রিয়া বা সিস্টেম দ্বারা ট্রিগার করা একটি ইভেন্টের কারণে একটি উপাদানের অবস্থা পরিবর্তিত হতে পারে। যখনই
+      অবস্থা পরিবর্তিত হয়, প্রতিক্রিয়া ব্রাউজারে উপাদানটিকে পুনরায় রেন্ডার করে। </p>
+  </div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +61,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>

@@ -1,0 +1,33 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.display-custom-cart{
+    display: flex;
+    align-items: center;
+}
+.custom-cart-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+     margin-right: 10px;
+}
+.selected-name p{
+font-weight: 600;
+color: white;
+}
+.choose-btn{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    transition: .4s ease-in-out;
+}
+.choose-btn:hover{
+    background-color: black;
+    color: white;
+}
+.choose-btn p{
+    font-size: 16px;
+    font-weight: 600;
+}
