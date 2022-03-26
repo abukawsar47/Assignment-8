@@ -36,16 +36,14 @@ const Cart = ({ cart }) => {
                     ))
                 }
             </div>
-            <div>
-                <p><button className='choose-btn' onClick={handleChooseBtn}><p>CHOOSE 1 FOR ME</p></button></p>
-                {/*       {selectedProduct.key && (
-                    <div className="cart-custom-display">
-                        <img className="cart-custom-img" src={selectedProduct.img} alt="" />
-                        <p>{selectedProduct.name}</p>
-                    </div>
-                )} */}
-                <p><button className='choose-btn' onClick={handleReChooseBtn}><p>CHOOSE AGAIN</p></button></p>
-            </div>
+            <p><button className='choose-btn' onClick={handleChooseBtn}><p>CHOOSE ONE FOR ME</p></button></p>
+            {selectedProduct.id && (
+                <div className="display-custom-cart selected-name">
+                    <img className="custom-cart-img" src={selectedProduct.img} alt="" />
+                    <p>{selectedProduct.name}</p>
+                </div>
+            )}
+            <p><button className='choose-btn' onClick={handleReChooseBtn}><p>CHOOSE AGAIN</p></button></p>
         </div>
     );
 };

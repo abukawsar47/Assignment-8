@@ -2,6 +2,15 @@
     position: sticky;
     top: 0;
 }
+.cart-custom-display{
+    background-color: #EC3F3A;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .display-custom-cart{
     display: flex;
     align-items: center;
